@@ -33,7 +33,7 @@ export default defineConfigWithTheme<ThemeConfig>({
   },
   themeConfig: {
     name: 'flaribbit',
-    cover: '60651947_p0.jpg',
+    cover: '../cover.jpg',
     social: [
       { icon: 'fa-github', url: 'https://github.com' },
       { icon: 'fa-twitter', url: 'https://twitter.com' },
