@@ -10,7 +10,7 @@ export interface ThemeConfig {
 }
 export default defineConfigWithTheme<ThemeConfig>({
   lang: 'zh-CN',
-  base: '/vitepress-theme-sakura/',
+  // base: '/vitepress-theme-sakura/',
   // from https://codybontecou.com/tailwindcss-with-vitepress.html
   head: [
     // 字体支持
@@ -33,7 +33,7 @@ export default defineConfigWithTheme<ThemeConfig>({
   },
   themeConfig: {
     name: 'flaribbit',
-    cover: '/vitepress-theme-sakura/60651947_p0.jpg',
+    cover: '60651947_p0.jpg',
     social: [
       { icon: 'fa-github', url: 'https://github.com' },
       { icon: 'fa-twitter', url: 'https://twitter.com' },
